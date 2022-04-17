@@ -24,7 +24,14 @@ public class FPS_Camera : MonoBehaviour
         float vertical = Input.GetAxis("Mouse Y");
         if (vertical != 0)
         {
-            camera.Rotate(Vector3.left * vertical * sensibility);
+            float angle = (camera.localEulerAngles.x - vertical * sensibility.y + 360) % 360;
+            if (angle > 180) { angle -= 360;}
+            angle = Mathf.Clamp(angle, -80, 80);
+
+            camera.localEulerAngles = Vector3.right * angle;
+            {
+
+            }
         }
     }
 }

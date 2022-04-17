@@ -1329,7 +1329,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cancri_e
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4239270854842514397, guid: 7f87b1a79ee03994784e7b552794f376, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7f87b1a79ee03994784e7b552794f376, type: 3}
 --- !u!1 &1498427024
 GameObject:
