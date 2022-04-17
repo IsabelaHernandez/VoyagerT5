@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 9797bd7c58e89eb438276cc88b0f219a
+  - enabled: 1
+    path: Assets/Scenes/Inicio.unity
+    guid: 43682e18693062049be21cfb22e6c68c
+  - enabled: 1
+    path: Assets/Scenes/Principal.unity
+    guid: 1bc6ecea3ac477d46825dd883e386371
+  - enabled: 1
+    path: Assets/Scenes/HD_85512.unity
+    guid: c7b37e2b88ebe1e4abcbc2703f453b72
+  - enabled: 1
+    path: Assets/Scenes/Selector_Planetas.unity
+    guid: a2a9c795c1424c342b434e089fb9f74b
+  - enabled: 1
+    path: Assets/Scenes/Transicion.unity
+    guid: 4b67293bbe761fb42b605476a2f1e790
+  - enabled: 1
+    path: Assets/Scenes/Tarea.unity
+    guid: 4de874657f5387b4f8eb1dd86f9a7ef9
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Kepler_16_b.unity
+    guid: 6183495ea23752346bb53f6bb2ced141
+  - enabled: 1
+    path: Assets/Scenes/Kepler_22b.unity
+    guid: 39b4b6ab1efff0947854dec0651457ef
+  - enabled: 1
+    path: Assets/Scenes/OGLE-2005-BLG-390Lb.unity
+    guid: a9edba169f755f04290b071ed7b65c8e
+  m_configObjects: {}
