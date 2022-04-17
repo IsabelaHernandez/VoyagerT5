@@ -1,21 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class Planet_selector : MonoBehaviour
 {
-    public Button[] nivelBTN;
+    public float rayLength;
+    public LayerMask LayerMask;
     void Start()
     {
-        int nivel = PlayerPrefs.GetInt("nivel", 2);
-
-        for (int i = 0; i < nivelBTN.Length; i++)
-        {
-            if (i + 2 > nivel)
-                nivelBTN[i].interactable = false;
-        }
+   
     }
 
-   
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
+        {
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit, rayLength, LayerMask))                 //cuando el raycast choca contra la "layer" de los puntos esta activa el ui
+            {
+                if (hit.collider.name == "HD_85512")
+                {
+                  //  cargarEscenaHD();
+                    Debug.Log("HD pa");
+                }
+                if (hit.collider.name == "Cancri_e")
+                {
+                   // cargarEscenaHD();
+                    Debug.Log("Cancri pa");
+                }
+
+            }
+        }
+    }
 }

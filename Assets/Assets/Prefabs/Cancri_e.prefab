@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 3946609205110387728}
   - component: {fileID: 3946609205110387729}
   - component: {fileID: 3946609205110387730}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Puntos_1
   m_TagString: Punto_Interactuable
   m_Icon: {fileID: 0}

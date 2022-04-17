@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Punto_Interactuable
+  - Planeta
   layers:
   - Default
   - TransparentFX
@@ -12,12 +13,12 @@ TagManager:
   - 
   - Water
   - UI
-  - punto1
-  - punto2
-  - punto3
-  - punto4
-  - Glow
   - 
+  - 
+  - 
+  - 
+  - Glow
+  - planets
   - 
   - 
   - 

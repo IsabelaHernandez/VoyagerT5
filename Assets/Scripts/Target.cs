@@ -32,7 +32,7 @@ private void Update()
                 if (hit.collider.name == "Puntos_1")
                 {
                     reiniciarVentanas();
-                    Debug.Log("punto 2 pa");
+                    Debug.Log("punto 1 pa");
                     ventanaPunto1();
                 }
                 if (hit.collider.name == "Puntos_2")
