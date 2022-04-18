@@ -20,7 +20,7 @@ public class Mouse_hover : MonoBehaviour
     }
     private void OnMouseEnter()
     {
-        renderer.material.color = Color.red;
+        renderer.material.color = Color.yellow;
         Debug.Log("entro el mouse");
     }
     private void OnMouseExit()
