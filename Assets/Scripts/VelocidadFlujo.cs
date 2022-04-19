@@ -6,20 +6,23 @@ using UnityEngine.VFX;
 public class VelocidadFlujo : MonoBehaviour
 {
     public VisualEffect warpSpeedVFX;
-    private bool warpActive;
+    public bool warpActive;
     public float rate = 0.02f;
-
+    public MovPlaneta movPlaneta;
+    public AudioSource hyperJumpTravel;
 
     void Start()
     {
         warpSpeedVFX.Stop();
-        warpSpeedVFX.SetFloat("HyperFlujo", 0);
-
+        warpSpeedVFX.SetFloat("HyperFlujo", 0);        
+        hyperJumpTravel = GetComponent<AudioSource>();
+        hyperJumpTravel.Play();
+        hyperJumpTravel.volume = 0;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && movPlaneta.stop == 0)
         {
             warpActive = true;
             StartCoroutine(ActivateParticles());
@@ -28,11 +31,10 @@ public class VelocidadFlujo : MonoBehaviour
         {
             warpActive = false;
             StartCoroutine(ActivateParticles());
-
         }
     }
 
-    IEnumerator ActivateParticles()
+    public IEnumerator ActivateParticles()
     {
         if (warpActive)
         {
@@ -41,6 +43,7 @@ public class VelocidadFlujo : MonoBehaviour
             while (cantidad < 1 & warpActive)
             {
                 cantidad += rate;
+                hyperJumpTravel.volume += rate;
                 warpSpeedVFX.SetFloat("HyperFlujo", cantidad);
                 yield return new WaitForSeconds (0.1f);
             }
@@ -51,11 +54,13 @@ public class VelocidadFlujo : MonoBehaviour
             while (cantidad > 0 &! warpActive)
             {
                 cantidad -= rate;
+                hyperJumpTravel.volume -= rate;
                 warpSpeedVFX.SetFloat("HyperFlujo", cantidad);
                 yield return new WaitForSeconds(0.1f);
                 if(cantidad <= 0 + rate)
                 {
                     cantidad = 0;
+                    hyperJumpTravel.volume = 0;
                     warpSpeedVFX.SetFloat("HyperFlujo", cantidad);
                     warpSpeedVFX.Stop();
 
