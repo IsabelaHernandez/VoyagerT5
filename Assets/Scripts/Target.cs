@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 
 public class Target : MonoBehaviour
 {
+   // private Renderer ren
+
    public float rayLength;
    public LayerMask LayerMask;
    public GameObject punto1;
@@ -15,9 +17,6 @@ public class Target : MonoBehaviour
     void Start()
     {
         reiniciarVentanas();
-
-         // renderer = GetComponent<Renderer>();
-        // RaycastHit hit;
     }
 
 // Update is called once per frame
@@ -32,7 +31,7 @@ private void Update()
                 if (hit.collider.name == "Puntos_1")
                 {
                     reiniciarVentanas();
-                    Debug.Log("punto 2 pa");
+                    Debug.Log("punto 1 pa");
                     ventanaPunto1();
                 }
                 if (hit.collider.name == "Puntos_2")
@@ -57,16 +56,6 @@ private void Update()
                 }
             }
         }
-
-      void OnMouseEnter()
-    {
-        GetComponent<Renderer>().material.color = Color.yellow;
-    }
-
-     void OnMouseExit()
-    {
-        GetComponent<Renderer>().material.color = Color.white;
-    }
 
     }
 
