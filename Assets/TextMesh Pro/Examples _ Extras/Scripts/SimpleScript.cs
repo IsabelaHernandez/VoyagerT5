@@ -1,58 +1,21 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-
-namespace TMPro.Examples
-{
-    
-    public class SimpleScript : MonoBehaviour
+public class RandomizarCables : MonoBehaviour
+{ //Isa
+    private void Awake()
     {
-
-        private TextMeshPro m_textMeshPro;
-        //private TMP_FontAsset m_FontAsset;
-
-        private const string label = "The <#0050FF>count is: </color>{0:2}";
-        private float m_frame;
-
-
-        void Start()
+        for (int i = 0; i < transform.childCount; i++)
         {
-            // Add new TextMesh Pro Component
-            m_textMeshPro = gameObject.AddComponent<TextMeshPro>();
+            GameObject cableActual = transform.GetChild(i).gameObject;
+            GameObject otroCable = transform.GetChild(Random.Range(0, transform.childCount)).gameObject;
 
-            m_textMeshPro.autoSizeTextContainer = true;
+            Vector2 nuevaPosCableActual = otroCable.transform.position;
+            Vector2 nuevaPosOtroCable = cableActual.transform.position;
 
-            // Load the Font Asset to be used.
-            //m_FontAsset = Resources.Load("Fonts & Materials/LiberationSans SDF", typeof(TMP_FontAsset)) as TMP_FontAsset;
-            //m_textMeshPro.font = m_FontAsset;
-
-            // Assign Material to TextMesh Pro Component
-            //m_textMeshPro.fontSharedMaterial = Resources.Load("Fonts & Materials/LiberationSans SDF - Bevel", typeof(Material)) as Material;
-            //m_textMeshPro.fontSharedMaterial.EnableKeyword("BEVEL_ON");
-            
-            // Set various font settings.
-            m_textMeshPro.fontSize = 48;
-
-            m_textMeshPro.alignment = TextAlignmentOptions.Center;
-            
-            //m_textMeshPro.anchorDampening = true; // Has been deprecated but under consideration for re-implementation.
-            //m_textMeshPro.enableAutoSizing = true;
-
-            //m_textMeshPro.characterSpacing = 0.2f;
-            //m_textMeshPro.wordSpacing = 0.1f;
-
-            //m_textMeshPro.enableCulling = true;
-            m_textMeshPro.enableWordWrapping = false;
-
-            //textMeshPro.fontColor = new Color32(255, 255, 255, 255);
+            cableActual.transform.position = nuevaPosCableActual;
+            otroCable.transform.position = nuevaPosOtroCable;
         }
-
-
-        void Update()
-        {
-            m_textMeshPro.SetText(label, m_frame % 1000);
-            m_frame += 1 * Time.deltaTime;
-        }
-
     }
 }
