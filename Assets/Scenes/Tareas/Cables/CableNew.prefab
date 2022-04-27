@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229703696023987146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.405, y: -0.0061, z: 0}
-  m_LocalScale: {x: 0.9068, y: 0.9140544, z: 0.9068}
+  m_LocalPosition: {x: 0.21, y: -0.0061, z: 0}
+  m_LocalScale: {x: 0.7135155, y: 0.9140544, z: 0.9068}
   m_Children: []
   m_Father: {fileID: 7554656795475385799}
   m_RootOrder: 0
@@ -326,7 +326,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.5894908, y: 0}
+  m_Offset: {x: 0.41392606, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -337,7 +337,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6869853, y: 0.75}
+  m_Size: {x: 1.6301781, y: 0.75}
   m_EdgeRadius: 0
 --- !u!114 &3133087485679770955
 MonoBehaviour:
@@ -351,9 +351,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5edc36f40e0c0846b5fe97bd834c262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalCable: {fileID: 0}
-  luz: {fileID: 0}
-  pivot: {fileID: 0}
+  finalCable: {fileID: 3775710144815254995}
+  luz: {fileID: 2057930572640997528}
+  pivot: {fileID: 5966043452235880156}
 --- !u!1 &5966043452235880156
 GameObject:
   m_ObjectHideFlags: 0

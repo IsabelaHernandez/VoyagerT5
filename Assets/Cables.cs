@@ -28,7 +28,7 @@ public class Cables : MonoBehaviour
     private void OnMouseDrag()
     {
         ActualizarPosicion();
-        //ComprobarConexion();
+        ComprobarConexion();
         ActualizarRotacion();
         ActualizarTamano();
     }
@@ -73,7 +73,7 @@ public class Cables : MonoBehaviour
             // No procesamos el collider del cable que estamos moviendo.
             if (col.gameObject != gameObject)
             {
-                transform.position = col.transform.position;
+                transform.position = col.gameObject.transform.Find("Conector").GetComponent<Transform>().position;
 
                 Cables otroCable = col.gameObject.GetComponent<Cables>();
 
