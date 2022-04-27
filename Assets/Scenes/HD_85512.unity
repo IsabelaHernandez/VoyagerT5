@@ -1423,26 +1423,26 @@ PrefabInstance:
     - target: {fileID: 2873246612564219112, guid: 09f8045fcd643cb49afc3791f9f93995, type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: 1d5f889eaa249ce48b23ca9b237b49a2, type: 3}
+      objectReference: {fileID: 32900000, guid: dd05d529d32ebcc49b3b4dd40afe697b, type: 3}
     - target: {fileID: 2873246612564219112, guid: 09f8045fcd643cb49afc3791f9f93995, type: 3}
       propertyPath: m_ControlledAudioTrackCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2873246612564219112, guid: 09f8045fcd643cb49afc3791f9f93995, type: 3}
       propertyPath: m_DirectAudioMutes.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2873246612564219112, guid: 09f8045fcd643cb49afc3791f9f93995, type: 3}
       propertyPath: m_DirectAudioVolumes.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2873246612564219112, guid: 09f8045fcd643cb49afc3791f9f93995, type: 3}
       propertyPath: m_EnabledAudioTracks.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2873246612564219112, guid: 09f8045fcd643cb49afc3791f9f93995, type: 3}
       propertyPath: m_TargetAudioSources.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2873246612564219115, guid: 09f8045fcd643cb49afc3791f9f93995, type: 3}
       propertyPath: m_SizeDelta.x
