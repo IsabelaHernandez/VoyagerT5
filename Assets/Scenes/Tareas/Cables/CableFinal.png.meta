@@ -1,18 +1,21 @@
 fileFormatVersion: 2
-guid: 877b29095a2db88489e04b64e933f3f3
+guid: c913aa13dc20b1c45b4ad9133cf343d0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4788396181608380654
-    second: Luz
+      213: 6128614122704959767
+    second: LuzEncendida
   - first:
-      213: 4814257792450920450
-    second: Cuerpo_Cable
+      213: -325320252113293747
+    second: LuzApagada
   - first:
-      213: -370323457045243708
-    second: Final_Cable
+      213: 764771464436648281
+    second: CuerpoCable
   - first:
-      213: 3444240213022049082
+      213: -8165322033106469412
+    second: FinalCable
+  - first:
+      213: 7982890958335318334
     second: Conector
   externalObjects: {}
   serializedVersion: 11
@@ -36,7 +39,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -48,8 +50,8 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
   nPOTScale: 0
   lightmap: 0
@@ -59,7 +61,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 175
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,80 +102,89 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Luz
+      name: LuzEncendida
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 277
-        height: 175
+        y: 6
+        width: 186
+        height: 102
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2174567fa033c8db0800000000000000
-      internalID: -4788396181608380654
+      spriteID: 7197545e2163d0550800000000000000
+      internalID: 6128614122704959767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cuerpo_Cable
+      name: LuzApagada
       rect:
         serializedVersion: 2
-        x: 291
-        y: 0
-        width: 277
-        height: 175
+        x: 228
+        y: 6
+        width: 186
+        height: 102
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 200813884fdafc240800000000000000
-      internalID: 4814257792450920450
+      spriteID: d4eeb8e44fa3c7bf0800000000000000
+      internalID: -325320252113293747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final_Cable
+      name: CuerpoCable
       rect:
         serializedVersion: 2
-        x: 577
+        x: 484
         y: 0
-        width: 275
-        height: 175
+        width: 115
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9590a1058930d9a00800000000000000
+      internalID: 764771464436648281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinalCable
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 4
+        width: 155
+        height: 124
       alignment: 5
       pivot: {x: 1, y: 0.5}
-      border: {x: 91, y: 0, z: 131, w: 0}
+      border: {x: 53, y: 0, z: 73, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c8d2d227c85cdaf0800000000000000
-      internalID: -370323457045243708
+      spriteID: cddb4046fd2feae80800000000000000
+      internalID: -8165322033106469412
       vertices: []
       indices: 
       edges: []
@@ -182,19 +193,19 @@ TextureImporter:
       name: Conector
       rect:
         serializedVersion: 2
-        x: 883
-        y: 27
-        width: 239
-        height: 131
+        x: 905
+        y: 35
+        width: 186
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a338b42b9366ccf20800000000000000
-      internalID: 3444240213022049082
+      spriteID: e39114c080de8ce60800000000000000
+      internalID: 7982890958335318334
       vertices: []
       indices: 
       edges: []
@@ -202,18 +213,13 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6731b2f689813b24c8691f59e4c1f27c
+    spriteID: 5f0247708c0756644a6cea62cc68c6f4
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Conector: 3444240213022049082
-      Cuerpo_Cable: 4814257792450920450
-      Luz: -4788396181608380654
-      Final_Cable: -370323457045243708
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
