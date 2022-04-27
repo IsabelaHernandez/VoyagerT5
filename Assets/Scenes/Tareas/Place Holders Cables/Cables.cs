@@ -1,21 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Cables : MonoBehaviour
-{ //Isa
+{
+    //Isa
 
     public SpriteRenderer finalCable;
-    public GameObject luz;
-
+    public GameObject luz, pivot;
     private Vector2 posicionOriginal;
-    private Vector2 tamañoOriginal;
+    private Vector2 tamanoOriginal;
     private TareaCables tareaCables;
 
     void Start()
     {
         posicionOriginal = transform.position;
-        tamañoOriginal = finalCable.size;
+        tamanoOriginal = finalCable.size;
         tareaCables = transform.root.gameObject.GetComponent<TareaCables>();
     }
 
@@ -29,37 +27,33 @@ public class Cables : MonoBehaviour
 
     private void OnMouseDrag()
     {
-       // ActualizarPosicion();
-        ComprobarConexion();
+        ActualizarPosicion();
+        //ComprobarConexion();
         ActualizarRotacion();
-        ActualizarTamaño();
+        ActualizarTamano();
     }
 
     private void ActualizarPosicion()
     {
-        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         transform.position = new Vector3(mousePosition.x, mousePosition.y);
     }
 
     private void ActualizarRotacion()
     {
         Vector2 posicionActual = transform.position;
-        Vector2 puntoOrigen = transform.parent.position;
-
+        Vector2 puntoOrigen = pivot.transform.position;
         Vector2 direccion = posicionActual - puntoOrigen;
-
         float angulo = Vector2.SignedAngle(Vector2.right * transform.lossyScale, direccion);
-
         transform.rotation = Quaternion.Euler(0, 0, angulo);
+        finalCable.GetComponent<Transform>().rotation = Quaternion.Euler(0, 0, angulo);
     }
 
-    private void ActualizarTamaño()
+    private void ActualizarTamano()
     {
-        Vector2 posicionActual = transform.position;
-        Vector2 puntoOrigen = transform.parent.position;
-
-        float distancia = Vector2.Distance(posicionActual, puntoOrigen);
-
+        var posicionActual = transform.position;
+        var puntoOrigen = pivot.transform.position;
+        var distancia = Vector2.Distance(posicionActual, puntoOrigen);
         finalCable.size = new Vector2(distancia, finalCable.size.y);
     }
 
@@ -67,7 +61,7 @@ public class Cables : MonoBehaviour
     {
         transform.position = posicionOriginal;
         transform.rotation = Quaternion.identity;
-        finalCable.size = tamañoOriginal;
+        finalCable.size = tamanoOriginal;
     }
 
     private void ComprobarConexion()
@@ -85,15 +79,19 @@ public class Cables : MonoBehaviour
 
                 if (finalCable.color == otroCable.finalCable.color)
                 {
-                    // Conexión correcta.
+                    // Conexion correcta.
                     Conectar();
                     otroCable.Conectar();
+
+                    //Apagar Colliders
+                    gameObject.GetComponent<Collider2D>().enabled = false;
+                    col.GetComponent<Collider2D>().enabled = false;
+
+                    //FindObjectOfType<DragDrop2D>().isDrag = false;
 
                     tareaCables.conexionesActuales++;
                     tareaCables.ComprobarVictoria();
                 }
-
-               
             }
         }
     }
