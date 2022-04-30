@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Mouse_hover : MonoBehaviour
 {
-    private Renderer renderer;
+  /*  private Renderer renderer;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,5 +27,5 @@ public class Mouse_hover : MonoBehaviour
     {
         renderer.material.color = Color.white;
         Debug.Log("salio el mouse");
-    }
+    }*/
 }

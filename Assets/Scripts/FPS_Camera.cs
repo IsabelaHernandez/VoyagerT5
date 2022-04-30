@@ -21,6 +21,8 @@ public class FPS_Camera : MonoBehaviour
         {
             transform.Rotate(Vector3.up * horizontal *sensibility);
         }
+
+        
         float vertical = Input.GetAxis("Mouse Y");
         if (vertical != 0)
         {
