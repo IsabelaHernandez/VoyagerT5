@@ -5,7 +5,7 @@ using UnityEngine;
 public class MenuDesplegable : MonoBehaviour
 {
     public RectTransform PanelGeneral; //lo que se mueve
-    float PosFinal = 90; //mover y
+    float PosFinal = 85; //mover y
     bool abrirMenu = true; //desplpegado o no
     public float tiempo = 0.5f; //t en el que va a pasar
 
