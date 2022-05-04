@@ -29,15 +29,15 @@ public class Planet_selector : MonoBehaviour
                 {
                     SceneManager.LoadScene("Cancri_e");
                 }
-                if (hit.collider.name == "Kepler_16_b")
+                if (hit.collider.name == "Mesh_Kepler_16b")
                 {
                     SceneManager.LoadScene("Kepler_16_b");
                 }
-                if (hit.collider.name == "Kepler_22b")
+                if (hit.collider.name == "Mesh_Kepler_22b")
                 {
                     SceneManager.LoadScene("Kepler_22b");
                 }
-                if (hit.collider.name == "OGLE_2005")
+                if (hit.collider.name == "Mesh_OGLE_2005")
                 {
                     SceneManager.LoadScene("OGLE-2005-BLG-390Lb");
                 }
