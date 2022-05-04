@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TareaFuego : MonoBehaviour
 {
+    public List<GameObject> fueguitos; //array fueguitos
+
     private void OnMouseDown()
     {
         gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x - 0.34f, gameObject.transform.localScale.y - 0.36f, gameObject.transform.localScale.z - 0.38f);
