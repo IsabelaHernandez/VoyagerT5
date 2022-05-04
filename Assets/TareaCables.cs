@@ -5,7 +5,9 @@ using UnityEngine;
 public class TareaCables : MonoBehaviour
 {
     public int conexionesActuales;
-    public GameObject caja;
+    public GameObject caja, exito;
+    private bool exitos = false;
+    
 
     public void ComprobarVictoria()
     {
@@ -13,7 +15,9 @@ public class TareaCables : MonoBehaviour
         {
             Destroy(caja, 0.99f);
             Destroy(this.gameObject, 1f);
-            
+
+            exito.SetActive(true);
         }
+      
     }
 }
