@@ -4,18 +4,25 @@ using UnityEngine;
 
 public class Victoria : MonoBehaviour
 {
-    public GameObject VictoriaText;
-    public static GameObject VictoriaImagen;
+    [SerializeField] GameObject panelVictoria;
+    [SerializeField] AudioBackground audioBackground;
+    AudioSource audioSource;
 
-    void start()
+    public int contadorFueguitos = 19;
+
+    void Start()
     {
-        Victoria.VictoriaImagen = VictoriaText;
-        Victoria.VictoriaImagen.gameObject.SetActive (false);
+        audioSource = GetComponent<AudioSource>();
     }
 
-    void update()
+    public void Ganar()
     {
-        Victoria.VictoriaImagen.gameObject.SetActive (true);
-    }
+        if (contadorFueguitos == 0)
+        {
+            panelVictoria.SetActive(true);
+            audioSource.volume = 0;
+            audioBackground.CambioSonido();
+        }
+    }    
 }
 

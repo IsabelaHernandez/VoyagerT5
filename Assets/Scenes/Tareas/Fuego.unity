@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (2)
@@ -363,6 +367,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (10)
@@ -445,6 +453,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (8)
@@ -469,27 +481,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.349627
+      value: 0.47549272
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.349627
+      value: 0.47549272
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.349627
+      value: 0.47549272
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.3
+      value: 3.3065
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.94
+      value: -1.113
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.17
+      value: 0.16966
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -519,6 +531,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (14)
@@ -642,6 +658,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (7)
@@ -666,27 +686,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8324081
+      value: 1.0993614
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.7368437
+      value: 0.97314954
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.6935
+      value: 0.9159055
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.18
+      value: 0.19382
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.91
+      value: -5.2349
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.36
+      value: 0.35927
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -716,12 +736,157 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (15)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+--- !u!1 &726272245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 726272248}
+  - component: {fileID: 726272247}
+  - component: {fileID: 726272246}
+  m_Layer: 0
+  m_Name: Audio Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &726272246
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726272245}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 33afa9cd44742b84ea7b9f130590cc8e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.01
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &726272247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726272245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca9a9284f24cfa4bac758550a806b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  victory: {fileID: 8300000, guid: d7c9b93fbfdc1ef42acfe64f3e71eb21, type: 3}
+--- !u!4 &726272248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726272245}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0518703, y: 0.29802513, z: -0.027441978}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &754657642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -785,6 +950,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (6)
@@ -1039,6 +1208,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (18)
@@ -1059,7 +1232,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 981502061}
-  - component: {fileID: 981502062}
   m_Layer: 0
   m_Name: VictoryScreen
   m_TagString: Untagged
@@ -1082,19 +1254,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &981502062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 981502060}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01e83122040b0424d875c99693efe2fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  VictoriaText: {fileID: 1125403349}
 --- !u!4 &987411671 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
@@ -1269,6 +1428,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (5)
@@ -1287,16 +1450,28 @@ PrefabInstance:
       value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2149
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2149
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2149
+      objectReference: {fileID: 0}
+    - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.85
+      value: 2.8611
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.66
+      value: -4.9554
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.2
+      value: 0.19941
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1326,6 +1501,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (12)
@@ -1350,27 +1529,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.63802
+      value: 0.9871758
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.63802
+      value: 0.9871758
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.63802
+      value: 0.9871758
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.89
+      value: 1.9081
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.84
+      value: -5.32
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.27
+      value: 0.26905
       objectReference: {fileID: 0}
     - target: {fileID: 4230203954852408121, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1400,6 +1579,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (16)
@@ -1562,6 +1745,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (13)
@@ -1636,6 +1823,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (3)
@@ -1661,6 +1852,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1641048409}
+  - component: {fileID: 1641048410}
+  - component: {fileID: 1641048411}
   m_Layer: 0
   m_Name: Fueguitos
   m_TagString: Untagged
@@ -1701,6 +1894,117 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1641048410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641048408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e83122040b0424d875c99693efe2fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panelVictoria: {fileID: 981502060}
+  audioBackground: {fileID: 726272247}
+  contadorFueguitos: 19
+--- !u!82 &1641048411
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641048408}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aaea6b85c94f1fb429d93e7cd9e36108, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1670273254
 GameObject:
   m_ObjectHideFlags: 0
@@ -1839,6 +2143,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (9)
@@ -1908,6 +2216,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (17)
@@ -2052,6 +2364,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.424
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (4)
@@ -2121,6 +2437,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1 (11)
@@ -2190,6 +2510,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.424
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: fueguitos.Array.data[0]
       value: 
@@ -2351,6 +2675,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4832658173857987203, guid: 673023e16dc993c46bef50538152d82d, type: 3}
+      propertyPath: scriptVictoria
+      value: 
+      objectReference: {fileID: 1641048410}
     - target: {fileID: 8367615006295038757, guid: 673023e16dc993c46bef50538152d82d, type: 3}
       propertyPath: m_Name
       value: 1
