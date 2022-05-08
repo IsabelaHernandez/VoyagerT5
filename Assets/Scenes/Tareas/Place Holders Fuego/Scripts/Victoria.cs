@@ -8,7 +8,7 @@ public class Victoria : MonoBehaviour
     [SerializeField] AudioBackground audioBackground;
     AudioSource audioSource;
 
-    public int contadorFueguitos = 17;
+    public int contadorFueguitos = 15;
 
     void Start()
     {
