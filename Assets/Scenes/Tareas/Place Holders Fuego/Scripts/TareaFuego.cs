@@ -5,10 +5,11 @@ using UnityEngine;
 public class TareaFuego : MonoBehaviour
 {
     [SerializeField] Victoria scriptVictoria;
-    
+    [SerializeField] float deltaSize;
+
     private void OnMouseDown()
     {
-        gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x - 0.34f, gameObject.transform.localScale.y - 0.36f, gameObject.transform.localScale.z - 0.38f);
+        gameObject.transform.localScale = new Vector3(gameObject.transform.localScale.x - deltaSize, gameObject.transform.localScale.y - deltaSize, gameObject.transform.localScale.z - deltaSize);
         if (gameObject.transform.localScale.x <= 0)
         {
             Destroy(gameObject);
