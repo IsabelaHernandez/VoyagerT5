@@ -6,7 +6,7 @@ public class TareaCables : MonoBehaviour
 {
     public int conexionesActuales;
     public GameObject caja, exito;
-    private bool exitos = false;
+    
     
 
     public void ComprobarVictoria()
