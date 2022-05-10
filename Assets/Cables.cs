@@ -14,7 +14,8 @@ public class Cables : MonoBehaviour
     {
         posicionOriginal = transform.position;
         tamanoOriginal = finalCable.size;
-        tareaCables = transform.root.gameObject.GetComponent<TareaCables>();
+        // tareaCables = transform.root.gameObject.GetComponent<TareaCables>();
+        tareaCables = FindObjectOfType<TareaCables>();
     }
 
     void Update()
