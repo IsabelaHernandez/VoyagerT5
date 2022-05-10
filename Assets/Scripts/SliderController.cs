@@ -18,7 +18,8 @@ public class SliderController : MonoBehaviour
 
     private int dir = -1;
 
-    public bool active;
+    private bool active;
+    public bool Active => active;
 
     private void Start()
     {
