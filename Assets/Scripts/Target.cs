@@ -17,6 +17,7 @@ public class Target : MonoBehaviour
     void Start()
     {
         reiniciarVentanas();
+        Cursor.lockState = CursorLockMode.None;
     }
 
 // Update is called once per frame
