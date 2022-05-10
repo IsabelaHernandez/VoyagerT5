@@ -1583,8 +1583,7 @@ MonoBehaviour:
   slider: {fileID: 896280282}
   position: 0
   speed: 1.5
-  centerRange: 0.2
-  active: 0
+  centerRange: 0.15
 --- !u!1001 &5713089421824799782
 PrefabInstance:
   m_ObjectHideFlags: 0

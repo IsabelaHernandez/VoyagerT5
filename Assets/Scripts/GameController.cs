@@ -56,7 +56,10 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
+        if (sliderController.Active)
+        {
         UpdateInput();
+        }
     }
 
     private void UpdateInput()
@@ -80,8 +83,9 @@ public class GameController : MonoBehaviour
 
     private void OnHit()
     {
-        currentHits++;
-        UpdateHits();
+            currentHits++;
+            UpdateHits();
+        
 
         if (currentHits >= targetHits)
         {
