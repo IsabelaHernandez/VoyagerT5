@@ -10,12 +10,17 @@ public class Cables : MonoBehaviour
     private Vector2 tamanoOriginal;
     private TareaCables tareaCables;
 
+    [SerializeField] AudioClip conexion;
+    [SerializeField] AudioSource correcto;
+
     void Start()
     {
         posicionOriginal = transform.position;
         tamanoOriginal = finalCable.size;
         // tareaCables = transform.root.gameObject.GetComponent<TareaCables>();
         tareaCables = FindObjectOfType<TareaCables>();
+
+       // correcto = transform.Find("ManagerTareaCables").transform.GetComponent<AudioSource>();
     }
 
     void Update()
@@ -80,6 +85,10 @@ public class Cables : MonoBehaviour
 
                 if (finalCable.color == otroCable.finalCable.color)
                 {
+
+                    correcto.clip = conexion;
+                    correcto.PlayOneShot(conexion);
+
                     // Conexion correcta.
                     Conectar();
                     otroCable.Conectar();
@@ -87,8 +96,6 @@ public class Cables : MonoBehaviour
                     //Apagar Colliders
                     gameObject.GetComponent<Collider2D>().enabled = false;
                     col.GetComponent<Collider2D>().enabled = false;
-
-                    //FindObjectOfType<DragDrop2D>().isDrag = false;
 
                     tareaCables.conexionesActuales++;
                     tareaCables.ComprobarVictoria();
