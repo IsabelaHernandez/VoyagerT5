@@ -5,7 +5,11 @@ using UnityEngine.SceneManagement;
 
 // Este script DEBE estar colocado en la bolsa
 public class TareaDiamantes : MonoBehaviour
+
 {
+    public GameObject  exito;
+
+
     int placedDiamonds = 0; // Cantidad de diamantes
     [SerializeField] Sprite[] bagSprites; // Array de sprites (Ajustados desde el inspector (SerializeField) )
 
@@ -55,6 +59,8 @@ public class TareaDiamantes : MonoBehaviour
         if (placedDiamonds == 5)
         {
             // Cambio de escena ?
+
+            exito.SetActive(true);
             print("Cambio de escena");
             // !! Recuerden colocar el cambio de la escena por medio de SceneManager.LoadScene() !!
         }
