@@ -1711,6 +1711,7 @@ MonoBehaviour:
   Panel: {fileID: 1448403457}
   compressClip: {fileID: 0}
   source: {fileID: 0}
+  mixer: {fileID: 0}
 --- !u!114 &2039909215
 MonoBehaviour:
   m_ObjectHideFlags: 0
