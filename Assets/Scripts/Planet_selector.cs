@@ -23,23 +23,23 @@ public class Planet_selector : MonoBehaviour
             {
                 if (hit.collider.name == "Mesh_HD_85512")
                 {
-                    SceneManager.LoadScene("HD_85512");
+                    SceneManager.LoadScene("Transicion 1");
                 }
                 if (hit.collider.name == "Mesh_Cancri_e")
                 {
-                    SceneManager.LoadScene("Cancri_e");
+                    SceneManager.LoadScene("Transicion 2");
                 }
                 if (hit.collider.name == "Mesh_Kepler_16b")
                 {
-                    SceneManager.LoadScene("Kepler_16_b");
+                    SceneManager.LoadScene("Transicion 3");
                 }
                 if (hit.collider.name == "Mesh_Kepler_22b")
                 {
-                    SceneManager.LoadScene("Kepler_22b");
+                    SceneManager.LoadScene("Transicion 4");
                 }
                 if (hit.collider.name == "Mesh_OGLE_2005")
                 {
-                    SceneManager.LoadScene("OGLE-2005-BLG-390Lb");
+                    SceneManager.LoadScene("Transicion 5");
                 }
 
             }
