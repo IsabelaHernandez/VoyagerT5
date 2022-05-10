@@ -1548,6 +1548,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 849675969252300441, guid: 9edb20bdd468a5a4a98fc946e363b444, type: 3}
   m_PrefabInstance: {fileID: 920482894}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &955238713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7246765437251063998, guid: 509fb30980230914f8bc98fa58f632f7, type: 3}
+  m_PrefabInstance: {fileID: 83850542}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1071030855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1733,6 +1738,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1131295893 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4242240181959273113, guid: f9bcb2442d1983544aca401c9167a0e4, type: 3}
+  m_PrefabInstance: {fileID: 487443225}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1131295894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131295893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9450c2c5dc7e26245ab40310bf533eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Video: {fileID: 1131295893}
+  Video2: {fileID: 955238713}
+  length: 0
 --- !u!1 &1231888813
 GameObject:
   m_ObjectHideFlags: 0
