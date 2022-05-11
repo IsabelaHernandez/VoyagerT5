@@ -13,11 +13,16 @@ public class Target : MonoBehaviour
    public GameObject punto2;
    public GameObject punto3;
    public GameObject punto4;
+
+    public AudioClip sonidoClick;
+    AudioSource reproductorSonidos;
     // Start is called before the first frame update
     void Start()
     {
         reiniciarVentanas();
         Cursor.lockState = CursorLockMode.None;
+
+        reproductorSonidos = GetComponent<AudioSource>();
     }
 
 // Update is called once per frame
@@ -31,12 +36,14 @@ private void Update()
             {
                 if (hit.collider.name == "Puntos_1")
                 {
+                    reproductorSonidos.PlayOneShot(sonidoClick);
                     reiniciarVentanas();
                     Debug.Log("punto 1 pa");
                     ventanaPunto1();
                 }
                 if (hit.collider.name == "Puntos_2")
                 {
+                    reproductorSonidos.PlayOneShot(sonidoClick);
                     reiniciarVentanas();
                     Debug.Log("punto 2 pa");
                     ventanaPunto2();
@@ -44,6 +51,7 @@ private void Update()
 
                 if (hit.collider.name == "Puntos_3")
                 {
+                    reproductorSonidos.PlayOneShot(sonidoClick);
                     reiniciarVentanas();
                     Debug.Log("punto 3 pa");
                     ventanaPunto3();
@@ -51,6 +59,7 @@ private void Update()
 
                 if (hit.collider.name == "Puntos_4")
                 {
+                    reproductorSonidos.PlayOneShot(sonidoClick);
                     reiniciarVentanas();
                     Debug.Log("punto 4 pa");
                     ventanaPunto4();
