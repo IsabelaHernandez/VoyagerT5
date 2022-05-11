@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Flujo/Inicio/Inicio.unity
     guid: 43682e18693062049be21cfb22e6c68c
   - enabled: 1
-    path: Assets/Scenes/Flujo/Inicio/Principal.unity
-    guid: 1bc6ecea3ac477d46825dd883e386371
+    path: Assets/Scenes/Flujo/Inicio/Principal 1.unity
+    guid: c131facfd049744489354203032c6704
   - enabled: 1
     path: Assets/Scenes/Flujo/Ciclo 1/Transicion 1.unity
     guid: 3ab3ebf4665ee3a478563064cbd5de25
