@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class panelText : MonoBehaviour
 {
     public GameObject Panel;
     [SerializeField] private AudioClip compressClip;
     [SerializeField] private AudioSource source;
+    public AudioMixer mixer;
+   
 
     public void OpenPanel()
     {
@@ -21,4 +24,5 @@ public class panelText : MonoBehaviour
             source.PlayOneShot(compressClip);
         }
     }
+    
 }

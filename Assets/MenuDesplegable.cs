@@ -5,7 +5,7 @@ using UnityEngine;
 public class MenuDesplegable : MonoBehaviour
 {
     public RectTransform PanelGeneral; //lo que se mueve
-    float PosFinal = 85; //mover y
+    float PosFinal = 160; //mover y
     bool abrirMenu = true; //desplpegado o no
     public float tiempo = 0.5f; //t en el que va a pasar
 
@@ -32,7 +32,7 @@ public class MenuDesplegable : MonoBehaviour
     public void BUTTON_Interfaz()
     {
         int signo = 0;
-        if (!abrirMenu) signo = -736; //ocultar (izq)
+        if (!abrirMenu) signo = -809; //ocultar (izq)
 
         print(new Vector3(signo + PosFinal, PanelGeneral.position.x, 0));
         MoverMenu(tiempo, PanelGeneral.position, new Vector3(PanelGeneral.position.x, signo + PosFinal, 0)); //saber a que lado va
