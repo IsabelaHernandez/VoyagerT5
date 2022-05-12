@@ -2311,10 +2311,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: Resume
-        m_Mode: 1
+      - m_Target: {fileID: 330891702}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2322,6 +2322,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 802670396}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1109047061
 MonoBehaviour:
@@ -2780,7 +2792,7 @@ GameObject:
   - component: {fileID: 1463885524}
   - component: {fileID: 1463885523}
   m_Layer: 5
-  m_Name: Button_Creditos
+  m_Name: Button_Pausa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2850,10 +2862,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: panelText, Assembly-CSharp
-        m_MethodName: OpenPanel
-        m_Mode: 1
+      - m_Target: {fileID: 802670396}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2861,6 +2873,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 330891702}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1463885524
 MonoBehaviour:
@@ -3316,19 +3340,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1678629137}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: QuitGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1678629137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3577,7 +3589,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3705,7 +3717,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1815690004
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4542,6 +4554,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 710574485, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 710574485, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 710574485, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2027356743}
+    - target: {fileID: 710574485, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 710574485, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 710574485, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: MenuDesplegable, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 710574485, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 710574486, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4653,7 +4693,11 @@ PrefabInstance:
     - target: {fileID: 3230654853968913645, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d7c2397d2b4a4ed4ba1fc8d57d5b1c73, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230654853968913645, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3230654853968913647, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
@@ -4677,7 +4721,11 @@ PrefabInstance:
     - target: {fileID: 3230654854141528691, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d7c2397d2b4a4ed4ba1fc8d57d5b1c73, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230654854141528691, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3230654854141528693, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
       propertyPath: Panel
       value: 
@@ -4793,7 +4841,11 @@ PrefabInstance:
     - target: {fileID: 3230654855276035250, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d7c2397d2b4a4ed4ba1fc8d57d5b1c73, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230654855276035250, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3230654855276035252, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
       propertyPath: Panel
       value: 
@@ -4849,7 +4901,11 @@ PrefabInstance:
     - target: {fileID: 3230654855566270949, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d7c2397d2b4a4ed4ba1fc8d57d5b1c73, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230654855566270949, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3230654855566270951, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
       propertyPath: Panel
       value: 
@@ -4878,5 +4934,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3230654853968913642, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+    - {fileID: 3230654855276035248, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+    - {fileID: 3230654854141528689, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
+    - {fileID: 3230654855566270947, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e1dec0e3590333d41b2c844cc06686b2, type: 3}

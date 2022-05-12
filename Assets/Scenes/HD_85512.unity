@@ -1245,6 +1245,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1970196612}
     m_Modifications:
+    - target: {fileID: 2873246612548395841, guid: 09f8045fcd643cb49afc3791f9f93995, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1701.7229
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873246612548395841, guid: 09f8045fcd643cb49afc3791f9f93995, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -31.996511
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873246612564219115, guid: 09f8045fcd643cb49afc3791f9f93995, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 242.7567
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873246612564219115, guid: 09f8045fcd643cb49afc3791f9f93995, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -31.996511
+      objectReference: {fileID: 0}
     - target: {fileID: 2873246613700121078, guid: 09f8045fcd643cb49afc3791f9f93995, type: 3}
       propertyPath: m_Name
       value: Panel
