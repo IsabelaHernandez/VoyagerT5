@@ -1229,7 +1229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numeroEscena: 1
   transitionAnimator: {fileID: 352057919}
-  transitionTime: 1
+  transitionTime: 2
   hayPuerta: 1
   sonidoPuerta: {fileID: 1128573626}
 --- !u!224 &7998112407534373603

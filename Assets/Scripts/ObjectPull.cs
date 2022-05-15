@@ -8,6 +8,9 @@ public class ObjectPull : MonoBehaviour
     public GameObject objetoAMover;
     public Transform target;
     public Transform target2;
+    public AudioSource sonidoOn;
+    public AudioSource sonidoOff;
+
 
     public float speed;
     bool isActivated;
@@ -29,8 +32,8 @@ public class ObjectPull : MonoBehaviour
     }
     void On()
     {
-        if (isActivated == false) { isActivated = true; }
-        else { isActivated = false; }
+        if (isActivated == false) { isActivated = true; sonidoOn.Play(); }
+        else { isActivated = false; sonidoOff.Play(); }
     }
     void Off()
     {

@@ -18,7 +18,7 @@ public class Skip : MonoBehaviour
     {
         if(numeroEscena == 4 || numeroEscena == 6 || numeroEscena == 9 || numeroEscena == 12 || numeroEscena == 15 || numeroEscena == 18)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKey("h"))
             {
                 LoadScene();               
             }

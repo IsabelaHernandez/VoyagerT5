@@ -965,6 +965,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8724827615450944539, guid: f5bf7d25483e1554fbce24822d1b12fa, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8724827615450944541, guid: f5bf7d25483e1554fbce24822d1b12fa, type: 3}
       propertyPath: m_Name
       value: SonidoPuertas
