@@ -65,4 +65,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Flujo/Ciclo 5/nombre.unity
     guid: ef1bc809eeb3adb46aca56233b95d489
+  - enabled: 1
+    path: Assets/Scenes/A.unity
+    guid: 3aa5f1fc8eb3c964a90433e4bf3b2bbb
+  - enabled: 1
+    path: Assets/Scenes/B.unity
+    guid: 0610f5573b2b1914b924b13fe3ff1565
   m_configObjects: {}
