@@ -8,6 +8,10 @@ public class Planet_selector : MonoBehaviour
 {
     public float rayLength;
     public LayerMask LayerMask;
+    public Animator transitionAnimator;
+    public float transitionTime = 2f;
+    public AudioSource sonidoPuerta;
+
     void Start()
     {
    
@@ -23,26 +27,34 @@ public class Planet_selector : MonoBehaviour
             {
                 if (hit.collider.name == "Mesh_HD_85512")
                 {
-                    SceneManager.LoadScene("HD_85512");
+                    StartCoroutine(SceneLoad("Transicion 1"));
                 }
                 if (hit.collider.name == "Mesh_Cancri_e")
                 {
-                    SceneManager.LoadScene("Cancri_e");
+                    StartCoroutine(SceneLoad("Transicion 2"));
                 }
                 if (hit.collider.name == "Mesh_Kepler_16b")
                 {
-                    SceneManager.LoadScene("Kepler_16_b");
+                    StartCoroutine(SceneLoad("Transicion 3"));
                 }
                 if (hit.collider.name == "Mesh_Kepler_22b")
                 {
-                    SceneManager.LoadScene("Kepler_22b");
+                    StartCoroutine(SceneLoad("Transicion 4"));
                 }
                 if (hit.collider.name == "Mesh_OGLE_2005")
                 {
-                    SceneManager.LoadScene("OGLE-2005-BLG-390Lb");
+                    StartCoroutine(SceneLoad("Transicion 5"));
                 }
 
             }
         }
+    }
+    public IEnumerator SceneLoad(string nombreEscena)
+    {
+        transitionAnimator.SetTrigger("StartTransition");
+        sonidoPuerta.Play();
+        yield return new WaitForSeconds(transitionTime);
+        SceneManager.LoadScene(nombreEscena);
+
     }
 }
