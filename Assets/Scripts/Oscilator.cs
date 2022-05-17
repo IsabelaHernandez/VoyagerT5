@@ -10,7 +10,7 @@ public class Oscilator : MonoBehaviour
     public Transform target2;
     //public AudioSource sonidoOn;
     //public AudioSource sonidoOff;
-
+    public float duracion;
 
     public float speed;
     bool isActivated;
@@ -21,10 +21,22 @@ public class Oscilator : MonoBehaviour
     void Update()
     {
         float step = speed * Time.deltaTime;
-        if (isActivated == true) { objetoAMover.transform.position = Vector3.MoveTowards(objetoAMover.transform.position, target.position, step);  }
-        if (objetoAMover.transform.position == target.position) { isActivated = false; }
-        if (isActivated == false) { objetoAMover.transform.position = Vector3.MoveTowards(objetoAMover.transform.position, target2.position, step); }
-        if (objetoAMover.transform.position == target2.position) { isActivated = true; }
+        if (isActivated == true) { objetoAMover.transform.position = Vector3.MoveTowards(objetoAMover.transform.position, target2.position, step);StartCoroutine(falsee()); }
+        //if (objetoAMover.transform.position == target2.position) { isActivated = false; Debug.Log("isActivated false"); }
+        if (isActivated == false) { objetoAMover.transform.position = Vector3.MoveTowards(objetoAMover.transform.position, target.position, step); StartCoroutine(truee()); }
+        //if (objetoAMover.transform.position == target.position) { isActivated = true; Debug.Log("isActivated true"); }
 
+    }
+    IEnumerator falsee()
+    {
+        yield return new WaitForSeconds(duracion);
+        Debug.Log("False");
+        if (isActivated) { isActivated = false; }      
+    }
+    IEnumerator truee()
+    {
+        yield return new WaitForSeconds(duracion);
+Debug.Log("True");
+        if (!isActivated) { isActivated = true; }
     }
 }
