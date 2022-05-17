@@ -36,6 +36,5 @@ public class Skip : MonoBehaviour
         transitionAnimator.SetTrigger("StartTransition");
         yield return new WaitForSeconds(transitionTime);
         SceneManager.LoadScene(numeroEscena);
-
-    }
+    } 
 }
