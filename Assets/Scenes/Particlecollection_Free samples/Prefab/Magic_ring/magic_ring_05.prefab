@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 402278}
   - component: {fileID: 19804268}
   - component: {fileID: 19988516}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: magic_ring_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4825,7 +4825,7 @@ GameObject:
   - component: {fileID: 415676}
   - component: {fileID: 19827568}
   - component: {fileID: 19928778}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 01_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9693,7 +9693,7 @@ GameObject:
   - component: {fileID: 410020}
   - component: {fileID: 19887620}
   - component: {fileID: 19963174}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14468,7 +14468,7 @@ GameObject:
   - component: {fileID: 436916}
   - component: {fileID: 19863166}
   - component: {fileID: 19907908}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19336,7 +19336,7 @@ GameObject:
   - component: {fileID: 416216}
   - component: {fileID: 19830468}
   - component: {fileID: 19950466}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 02_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24168,7 +24168,7 @@ GameObject:
   - component: {fileID: 493338}
   - component: {fileID: 19807098}
   - component: {fileID: 19915148}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
