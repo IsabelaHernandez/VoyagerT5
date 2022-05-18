@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MovPlaneta : MonoBehaviour
 {
-    [SerializeField] public float moveSpeed = -15f;
+    public float moveSpeed = -1500f;
     private CharacterController controller;
     private float isPressed = 0;
     public float stop = 0;
