@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Flujo/Inicio/Principal 1.unity
     guid: c131facfd049744489354203032c6704
   - enabled: 1
-    path: Assets/Scenes/Flujo/Ciclo 1/Transicion 1.unity
-    guid: 3ab3ebf4665ee3a478563064cbd5de25
+    path: Assets/Scenes/Flujo/Ciclo 1/Transicion1 1.unity
+    guid: 43815780d3b1afd4d8eec197f789fcdf
   - enabled: 1
     path: Assets/Scenes/Flujo/Ciclo 1/HD_85512.unity
     guid: c7b37e2b88ebe1e4abcbc2703f453b72
@@ -25,13 +25,13 @@ EditorBuildSettings:
     guid: e4067aa91b89bd74c95d99cb042e9b18
   - enabled: 1
     path: Assets/Scenes/Flujo/Transicion A Selector.unity
-    guid: 343bd0d7a4619394187354232ebce551
+    guid: 426407eb397219745919fec3e1787edb
   - enabled: 1
     path: Assets/Scenes/Flujo/Selector_Planetas.unity
     guid: a2a9c795c1424c342b434e089fb9f74b
   - enabled: 1
-    path: Assets/Scenes/Flujo/Ciclo 2/Transicion 2.unity
-    guid: c4d8e63824a1fd2469582077687708ca
+    path: Assets/Scenes/Flujo/Ciclo 2/Transicion1 2.unity
+    guid: ace4a461781016f4f8fc6c687a068088
   - enabled: 1
     path: Assets/Scenes/Flujo/Ciclo 2/Cancri_e.unity
     guid: c92904a3281c01444b131f0664557480
@@ -39,8 +39,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Flujo/Ciclo 2/Diamantes.unity
     guid: d817518aec0eac54cb96c7b9c2ddbdca
   - enabled: 1
-    path: Assets/Scenes/Flujo/Ciclo 3/Transicion 3.unity
-    guid: cfdb1ac1aed0463408a473f5928f01f1
+    path: Assets/Scenes/Flujo/Ciclo 3/Transicion1 3.unity
+    guid: 1fc8871a879010a46a6125698754a92c
   - enabled: 1
     path: Assets/Scenes/Flujo/Ciclo 3/Kepler_16_b.unity
     guid: 6183495ea23752346bb53f6bb2ced141
@@ -48,8 +48,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Flujo/Ciclo 3/Temperatura.unity
     guid: b68060076baaab94d86cdcea83aa910e
   - enabled: 1
-    path: Assets/Scenes/Flujo/Ciclo 4/Transicion 4.unity
-    guid: 2e079c21a6bf43842b8943612bf3412a
+    path: Assets/Scenes/Flujo/Ciclo 4/Transicion1 4.unity
+    guid: 6ae6c5e985fe8d34a9831ffe82e5fb6e
   - enabled: 1
     path: Assets/Scenes/Flujo/Ciclo 4/Kepler_22b.unity
     guid: 39b4b6ab1efff0947854dec0651457ef
@@ -57,8 +57,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Flujo/Ciclo 4/CablesFixed.unity
     guid: 9a163c58b5abb294394cd71c594a6e2a
   - enabled: 1
-    path: Assets/Scenes/Flujo/Ciclo 5/Transicion 5.unity
-    guid: 78f8ece1d0a11db4091de43d165ecb42
+    path: Assets/Scenes/Flujo/Ciclo 5/Transicion1 5.unity
+    guid: 97c3789cb7751e64caa4fb1686d60182
   - enabled: 1
     path: Assets/Scenes/Flujo/Ciclo 5/OGLE-2005-BLG-390Lb.unity
     guid: a9edba169f755f04290b071ed7b65c8e

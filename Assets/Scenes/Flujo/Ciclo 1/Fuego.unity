@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 76614e7371f6bdf40bfbd196ad1e0c69, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4366974, g: 0.4842965, b: 0.5645463, a: 1}
+  m_IndirectSpecularColor: {r: 0.15626583, g: 0.17095539, b: 0.28712684, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -178,6 +178,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fueguito (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
       value: 3
@@ -315,6 +323,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 264056065942070158, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
   m_PrefabInstance: {fileID: 412474986}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &205638595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 205638596}
+  - component: {fileID: 205638598}
+  - component: {fileID: 205638597}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &205638596
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205638595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -345}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2117013303}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &205638597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205638595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8caafc5683d250c4bb48c92b7ae1bac0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &205638598
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205638595}
+  m_CullTransparentMesh: 1
 --- !u!4 &326014271 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 264056065942070158, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
@@ -472,6 +555,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fueguito (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
       value: 3
@@ -552,6 +643,14 @@ PrefabInstance:
     - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: m_Name
       value: Fueguito (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
@@ -705,6 +804,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fueguito (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
       value: 3
@@ -741,7 +848,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632628658}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.077087, y: -0.16127333, z: -2.842688}
+  m_LocalPosition: {x: 1.077087, y: -0.16127333, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 565995550}
@@ -1017,7 +1124,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &781934735
 GameObject:
@@ -1044,11 +1151,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781934735}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -960.07, y: -538.95, z: 0}
-  m_LocalScale: {x: 0.58448, y: 0.58448, z: 0.58448}
+  m_LocalPosition: {x: -0.02670288, y: 0.36961365, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.22313741}
   m_Children: []
-  m_Father: {fileID: 2117013303}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &781934737
 SpriteRenderer:
@@ -1160,6 +1267,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fueguito (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
       value: 3
@@ -1228,6 +1343,14 @@ PrefabInstance:
     - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: m_Name
       value: Fueguito (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
@@ -1467,7 +1590,7 @@ Transform:
   m_Children:
   - {fileID: 1125403350}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1026699206
 PrefabInstance:
@@ -1523,6 +1646,14 @@ PrefabInstance:
     - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: m_Name
       value: Fueguito (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
@@ -1819,6 +1950,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fueguito (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
       value: 3
@@ -1900,6 +2039,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fueguito (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
       value: 3
@@ -1975,6 +2122,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fueguito (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
       value: 3
@@ -2044,6 +2199,14 @@ PrefabInstance:
     - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: m_Name
       value: Fueguito (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
@@ -2118,6 +2281,14 @@ PrefabInstance:
     - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: m_Name
       value: Fueguito (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
@@ -2234,7 +2405,7 @@ RectTransform:
   - {fileID: 2351079591416862714}
   - {fileID: 1732014378}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2398,6 +2569,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fueguito (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
       value: 3
@@ -2538,6 +2717,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fueguito (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize
       value: 3
@@ -2566,7 +2753,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2117013300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2596,10 +2783,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2626,7 +2813,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_TargetDisplay: 0
 --- !u!224 &2117013303
 RectTransform:
@@ -2639,9 +2826,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 781934736}
+  - {fileID: 205638596}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2684,8 +2871,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 299.3, y: -148}
-  m_SizeDelta: {x: 90.0453, y: 92.0285}
+  m_AnchoredPosition: {x: 650, y: -265}
+  m_SizeDelta: {x: 409.47, y: 251.378}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2351079591416862715
 MonoBehaviour:
@@ -2780,7 +2967,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d8697e6e63cfad045b480d325e51d145, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e340c2160c4bea94b8add161d52c2600, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2864,6 +3051,14 @@ PrefabInstance:
     - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: m_Name
       value: Fueguito
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056065942070195, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 264056066821093608, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8122446070090017583, guid: 90398e760214d0e4398976ab8b0ded1c, type: 3}
       propertyPath: deltaSize

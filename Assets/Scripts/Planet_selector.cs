@@ -27,23 +27,23 @@ public class Planet_selector : MonoBehaviour
             {
                 if (hit.collider.name == "Mesh_HD_85512")
                 {
-                    StartCoroutine(SceneLoad("Transicion 1"));
+                    StartCoroutine(SceneLoad("Transicion1 1"));
                 }
                 if (hit.collider.name == "Mesh_Cancri_e")
                 {
-                    StartCoroutine(SceneLoad("Transicion 2"));
+                    StartCoroutine(SceneLoad("Transicion1 2"));
                 }
                 if (hit.collider.name == "Mesh_Kepler_16b")
                 {
-                    StartCoroutine(SceneLoad("Transicion 3"));
+                    StartCoroutine(SceneLoad("Transicion1 3"));
                 }
                 if (hit.collider.name == "Mesh_Kepler_22b")
                 {
-                    StartCoroutine(SceneLoad("Transicion 4"));
+                    StartCoroutine(SceneLoad("Transicion1 4"));
                 }
                 if (hit.collider.name == "Mesh_OGLE_2005")
                 {
-                    StartCoroutine(SceneLoad("Transicion 5"));
+                    StartCoroutine(SceneLoad("Transicion1 5"));
                 }
 
             }
