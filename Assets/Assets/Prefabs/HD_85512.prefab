@@ -329,6 +329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PuntosInteractivos
       objectReference: {fileID: 0}
+    - target: {fileID: 8479409360402683481, guid: 41e0a4d8a955ae74cb79ad42050bb32b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41e0a4d8a955ae74cb79ad42050bb32b, type: 3}
 --- !u!4 &3102165757074868522 stripped
