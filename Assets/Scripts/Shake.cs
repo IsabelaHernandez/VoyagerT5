@@ -23,16 +23,16 @@ public class Shake : MonoBehaviour
         {
             start = true;
             StartCoroutine(Shaking());
-            while (Input.GetKeyDown(KeyCode.Space) && movPlaneta.stop == 0) { panel.transform.position = Vector3.MoveTowards(panel.transform.position, target.position, step); }
+            
 
         }
+        Accelerate();
         if (Input.GetKeyUp(KeyCode.Space))
         {
             start = false;
-            StartCoroutine(Shaking());
-            while (Input.GetKeyUp(KeyCode.Space)) { panel.transform.position = Vector3.MoveTowards(panel.transform.position, target2.position, step); }
+            StartCoroutine(Shaking());           
         }
-
+        Deaccelerate();
         /*if (start)
         {
             start = false;
@@ -53,7 +53,7 @@ public class Shake : MonoBehaviour
         }
         transform.position = startPosition;
     }
-    /*void Accelerate()
+    void Accelerate()
     {
         float step = speed * Time.deltaTime;
         if (start) { panel.transform.position = Vector3.MoveTowards(panel.transform.position, target.position, step); }
@@ -61,6 +61,6 @@ public class Shake : MonoBehaviour
     void Deaccelerate()
     {
         float step = speed * Time.deltaTime;
-        panel.transform.position = Vector3.MoveTowards(panel.transform.position, target2.position, step);
-    }*/
+        if (!start) { panel.transform.position = Vector3.MoveTowards(panel.transform.position, target2.position, step); }
+    }
 }

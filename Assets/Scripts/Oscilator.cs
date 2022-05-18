@@ -25,6 +25,8 @@ public class Oscilator : MonoBehaviour
         //if (objetoAMover.transform.position == target2.position) { isActivated = false; Debug.Log("isActivated false"); }
         if (isActivated == false) { objetoAMover.transform.position = Vector3.MoveTowards(objetoAMover.transform.position, target.position, step); StartCoroutine(truee()); }
         //if (objetoAMover.transform.position == target.position) { isActivated = true; Debug.Log("isActivated true"); }
+        if (Input.GetKeyDown(KeyCode.Space)){ Destroy(objetoAMover); }
+
 
     }
     IEnumerator falsee()

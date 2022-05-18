@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovPlaneta : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class MovPlaneta : MonoBehaviour
     public float stop = 0;
     public VelocidadFlujo velocidadFlujo;
     public AudioSource hyperJumpArrival;
+    public Animator fade;
+    public int numeroEscena;
 
     void Start()
     {
@@ -24,10 +27,12 @@ public class MovPlaneta : MonoBehaviour
         if (transform.position.z <= -0.5f && stop == 0 )
         {
             stop = 1;
-            velocidadFlujo.warpActive = false;
+            velocidadFlujo.warpActive = true;
             velocidadFlujo.StartCoroutine(velocidadFlujo.ActivateParticles());
             moveSpeed = -2f;
             hyperJumpArrival.Play();
+            fade.Play("FadeOutLong");
+            LoadScene();
         }
         if (transform.position.z <= -0.9f && stop == 1)
         {
@@ -46,5 +51,17 @@ public class MovPlaneta : MonoBehaviour
         Vector3 direction = new Vector3(0, 0, hInput);
         controller.Move(direction * moveSpeed * Time.deltaTime);
       
+    }
+    public void LoadScene()
+    {
+       
+        StartCoroutine(SceneLoad(numeroEscena));
+
+    }
+    public IEnumerator SceneLoad(int numeroEscena)
+    {
+       
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(numeroEscena);
     }
 }
