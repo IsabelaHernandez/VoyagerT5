@@ -61,7 +61,7 @@ public class MovPlaneta : MonoBehaviour
     public IEnumerator SceneLoad(int numeroEscena)
     {
        
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
         SceneManager.LoadScene(numeroEscena);
     }
 }

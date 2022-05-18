@@ -1235,7 +1235,7 @@ MonoBehaviour:
   velocidadFlujo: {fileID: 1669207699}
   hyperJumpArrival: {fileID: 0}
   fade: {fileID: 1368694683}
-  numeroEscena: 7
+  numeroEscena: 15
 --- !u!143 &1484555149
 CharacterController:
   m_ObjectHideFlags: 0

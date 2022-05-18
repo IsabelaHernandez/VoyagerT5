@@ -1325,11 +1325,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507657204811892754, guid: ced6831c6d9b83148bd7fcf353487caa, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 243.914
+      value: 368.641
       objectReference: {fileID: 0}
     - target: {fileID: 7507657204811892754, guid: ced6831c6d9b83148bd7fcf353487caa, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 249.286
+      value: 224.94
       objectReference: {fileID: 0}
     - target: {fileID: 7507657204811892754, guid: ced6831c6d9b83148bd7fcf353487caa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1361,7 +1361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507657204811892754, guid: ced6831c6d9b83148bd7fcf353487caa, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 560
+      value: 650
       objectReference: {fileID: 0}
     - target: {fileID: 7507657204811892754, guid: ced6831c6d9b83148bd7fcf353487caa, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1381,7 +1381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507657204811892755, guid: ced6831c6d9b83148bd7fcf353487caa, type: 3}
       propertyPath: numeroEscena
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7507657204811892755, guid: ced6831c6d9b83148bd7fcf353487caa, type: 3}
       propertyPath: transitionTime
@@ -2175,6 +2175,10 @@ PrefabInstance:
       propertyPath: FadeShit
       value: 
       objectReference: {fileID: 762964398}
+    - target: {fileID: 8847236974012550782, guid: c0a8969cd03906840becd4bc1b5bbc32, type: 3}
+      propertyPath: duracionFade
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8847236974012550783, guid: c0a8969cd03906840becd4bc1b5bbc32, type: 3}
       propertyPath: m_Name
       value: FadeManager
