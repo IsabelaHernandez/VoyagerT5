@@ -11,6 +11,7 @@ public class ObjectPull : MonoBehaviour
     public AudioSource sonidoOn;
     public AudioSource sonidoOff;
     public GameObject flechaTuto;
+    public GameObject[] paneles;
 
     public float speed;
     bool isActivated;
@@ -28,12 +29,19 @@ public class ObjectPull : MonoBehaviour
         float step = speed * Time.deltaTime;
         if (isActivated == true) { objetoAMover.transform.position = Vector3.MoveTowards(objetoAMover.transform.position, target.position, step); }
         if (isActivated == false) { objetoAMover.transform.position = Vector3.MoveTowards(objetoAMover.transform.position, target2.position, step); }
-
+        if (!isActivated)
+        {
+            paneles[0].SetActive(false);
+            paneles[1].SetActive(false);
+            paneles[2].SetActive(false);
+            paneles[3].SetActive(false);
+        }
     }
     void On()
     {
         if (isActivated == false) { isActivated = true; sonidoOn.Play(); flechaTuto.SetActive(true); }
-        else { isActivated = false; sonidoOff.Play(); }
+        else { isActivated = false; sonidoOff.Play(); flechaTuto.SetActive(false);}
+        
     }
     void Off()
     {
