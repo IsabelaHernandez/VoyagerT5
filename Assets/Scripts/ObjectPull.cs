@@ -12,6 +12,7 @@ public class ObjectPull : MonoBehaviour
     public AudioSource sonidoOff;
     public GameObject flechaTuto;
     public GameObject[] paneles;
+    public GameObject botonLaunch;
 
     public float speed;
     bool isActivated;
@@ -39,7 +40,7 @@ public class ObjectPull : MonoBehaviour
     }
     void On()
     {
-        if (isActivated == false) { isActivated = true; sonidoOn.Play(); flechaTuto.SetActive(true); }
+        if (isActivated == false) { isActivated = true; sonidoOn.Play(); flechaTuto.SetActive(true); botonLaunch.SetActive(true); }
         else { isActivated = false; sonidoOff.Play(); flechaTuto.SetActive(false);}
         
     }

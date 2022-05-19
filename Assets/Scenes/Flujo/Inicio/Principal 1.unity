@@ -757,7 +757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &486842396
 RectTransform:
   m_ObjectHideFlags: 0
@@ -799,6 +799,7 @@ MonoBehaviour:
   sonidoOff: {fileID: 1391240897}
   flechaTuto: {fileID: 0}
   paneles: []
+  botonLaunch: {fileID: 0}
   speed: 700
   boton: {fileID: 1392929280}
 --- !u!1 &532869797
@@ -3847,6 +3848,10 @@ PrefabInstance:
       propertyPath: flechaTuto
       value: 
       objectReference: {fileID: 673584823}
+    - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: botonLaunch
+      value: 
+      objectReference: {fileID: 486842395}
     - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
       propertyPath: paneles.Array.size
       value: 4
