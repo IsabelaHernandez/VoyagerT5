@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &10820043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109940953714802841, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+  m_PrefabInstance: {fileID: 8109940953265223425}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &11455818
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,7 +757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &486842396
 RectTransform:
   m_ObjectHideFlags: 0
@@ -793,6 +798,8 @@ MonoBehaviour:
   sonidoOn: {fileID: 1061668993}
   sonidoOff: {fileID: 1391240897}
   flechaTuto: {fileID: 0}
+  paneles: []
+  botonLaunch: {fileID: 0}
   speed: 700
   boton: {fileID: 1392929280}
 --- !u!1 &532869797
@@ -2198,6 +2205,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8724827615450944538, guid: f5bf7d25483e1554fbce24822d1b12fa, type: 3}
   m_PrefabInstance: {fileID: 315601076}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1271672297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109940954171292903, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+  m_PrefabInstance: {fileID: 8109940953265223425}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1330863190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3148,6 +3160,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1674003453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109940952897481670, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+  m_PrefabInstance: {fileID: 8109940953265223425}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1678629134
 GameObject:
   m_ObjectHideFlags: 0
@@ -3376,6 +3393,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678996260}
   m_CullTransparentMesh: 1
+--- !u!1 &1690231264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109940954545591868, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+  m_PrefabInstance: {fileID: 8109940953265223425}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1756536927
 GameObject:
   m_ObjectHideFlags: 0
@@ -3658,6 +3680,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 695090485}
     m_Modifications:
+    - target: {fileID: 8109940953250464314, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109940953250464314, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1674003453}
+    - target: {fileID: 8109940953250464314, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1271672297}
+    - target: {fileID: 8109940953250464314, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1690231264}
+    - target: {fileID: 8109940953497100137, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109940953497100137, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1674003453}
+    - target: {fileID: 8109940953497100137, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[1]
+      value: 
+      objectReference: {fileID: 10820043}
+    - target: {fileID: 8109940953497100137, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1271672297}
+    - target: {fileID: 8109940954020452965, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109940954020452965, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[0]
+      value: 
+      objectReference: {fileID: 10820043}
+    - target: {fileID: 8109940954020452965, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1271672297}
+    - target: {fileID: 8109940954020452965, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1690231264}
+    - target: {fileID: 8109940954020452965, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[3]
+      value: 
+      objectReference: {fileID: 1690231264}
     - target: {fileID: 8109940954117556393, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
       propertyPath: Panel
       value: 
@@ -3666,6 +3740,22 @@ PrefabInstance:
       propertyPath: flechaTuto
       value: 
       objectReference: {fileID: 673584823}
+    - target: {fileID: 8109940954250753275, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109940954250753275, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1674003453}
+    - target: {fileID: 8109940954250753275, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[1]
+      value: 
+      objectReference: {fileID: 10820043}
+    - target: {fileID: 8109940954250753275, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1690231264}
     - target: {fileID: 8109940954584462466, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3758,5 +3848,29 @@ PrefabInstance:
       propertyPath: flechaTuto
       value: 
       objectReference: {fileID: 673584823}
+    - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: botonLaunch
+      value: 
+      objectReference: {fileID: 486842395}
+    - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: paneles.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: paneles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1674003453}
+    - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: paneles.Array.data[1]
+      value: 
+      objectReference: {fileID: 10820043}
+    - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: paneles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1271672297}
+    - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: paneles.Array.data[3]
+      value: 
+      objectReference: {fileID: 1690231264}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}

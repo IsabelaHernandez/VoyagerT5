@@ -47,7 +47,7 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         UpdateHits();
-        StartCoroutine(StartSlider());
+        //StartCoroutine(StartSlider());
         foreach (Animator anim in hielosAnimator)
         {
             anim.SetBool("QuitarHielo", false);
@@ -130,13 +130,13 @@ public class GameController : MonoBehaviour
         UpdateHits();
     }
 
-    private IEnumerator StartSlider()
+    /*private IEnumerator StartSlider()
     {
         gameFeedbackImage.sprite = startSprite;
         yield return new WaitForSeconds(startDelay);
-        sliderController.Restart();
+        sliderContro ller.Restart();
         gameFeedbackImage.gameObject.SetActive(false);
-    }
+    }*/
 
     private IEnumerator WinSlider()
     {
