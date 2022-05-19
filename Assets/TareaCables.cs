@@ -10,7 +10,7 @@ public class TareaCables : MonoBehaviour
     [SerializeField] GameObject tareaCables;
     [SerializeField] List<AudioClip> audios;
     [SerializeField] AudioSource background;
-
+    public GameObject botonSkip;
     public void ComprobarVictoria()
     {
         background = FindObjectOfType<AudioSource>();
@@ -23,8 +23,8 @@ public class TareaCables : MonoBehaviour
 
             Destroy(caja, 0.99f);
             Destroy(tareaCables, 1f);
-
-            Invoke(nameof(Exito), 1f);   
+            botonSkip.SetActive(true);
+            Invoke(nameof(Exito), 0.1f);   
         }
       
     }

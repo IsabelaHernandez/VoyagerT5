@@ -8,6 +8,8 @@ public class TareaDiamantes : MonoBehaviour
 {
     int placedDiamonds = 0; // Cantidad de diamantes
     [SerializeField] Sprite[] bagSprites; // Array de sprites (Ajustados desde el inspector (SerializeField) )
+    public GameObject buttonSkip;
+    public GameObject bolsa;
 
     SpriteRenderer sp; // Referencia al Spriterenderer
 
@@ -55,6 +57,8 @@ public class TareaDiamantes : MonoBehaviour
         if (placedDiamonds == 5)
         {
             // Cambio de escena ?
+            buttonSkip.SetActive(true);
+            bolsa.SetActive(false);
             print("Cambio de escena");
             // !! Recuerden colocar el cambio de la escena por medio de SceneManager.LoadScene() !!
         }

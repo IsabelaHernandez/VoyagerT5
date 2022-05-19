@@ -2566,6 +2566,70 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 496
       objectReference: {fileID: 0}
+    - target: {fileID: 8109940953250464314, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109940953250464314, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1206138900}
+    - target: {fileID: 8109940953250464314, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1206138898}
+    - target: {fileID: 8109940953250464314, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1206138897}
+    - target: {fileID: 8109940953497100137, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109940953497100137, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1206138900}
+    - target: {fileID: 8109940953497100137, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1206138899}
+    - target: {fileID: 8109940953497100137, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1206138898}
+    - target: {fileID: 8109940954020452965, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109940954020452965, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1206138899}
+    - target: {fileID: 8109940954020452965, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1206138898}
+    - target: {fileID: 8109940954020452965, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1206138897}
+    - target: {fileID: 8109940954250753275, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109940954250753275, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1206138900}
+    - target: {fileID: 8109940954250753275, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1206138899}
+    - target: {fileID: 8109940954250753275, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: restoPaneles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1206138897}
     - target: {fileID: 8109940954502756458, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
@@ -2658,11 +2722,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panel Holder
       objectReference: {fileID: 0}
+    - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: paneles.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: paneles.Array.data[0]
+      value: 
+      objectReference: {fileID: 1206138900}
+    - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: paneles.Array.data[1]
+      value: 
+      objectReference: {fileID: 1206138899}
+    - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: paneles.Array.data[2]
+      value: 
+      objectReference: {fileID: 1206138898}
+    - target: {fileID: 8109940954584462469, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+      propertyPath: paneles.Array.data[3]
+      value: 
+      objectReference: {fileID: 1206138897}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
 --- !u!224 &1206138896 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8109940954584462466, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+  m_PrefabInstance: {fileID: 1206138895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1206138897 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109940954545591868, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+  m_PrefabInstance: {fileID: 1206138895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1206138898 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109940954171292903, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+  m_PrefabInstance: {fileID: 1206138895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1206138899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109940953714802841, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+  m_PrefabInstance: {fileID: 1206138895}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1206138900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109940952897481670, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
   m_PrefabInstance: {fileID: 1206138895}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1209503819 stripped
@@ -3248,6 +3352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Panel: {fileID: 51746109}
+  restoPaneles: []
   compressClip: {fileID: 0}
   source: {fileID: 0}
   flechaTuto: {fileID: 0}
