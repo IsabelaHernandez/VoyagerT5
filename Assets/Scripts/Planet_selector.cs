@@ -62,36 +62,35 @@ public class Planet_selector : MonoBehaviour
             if (Physics.Raycast(ray, out hit, rayLength, LayerMask))                 //cuando el raycast choca contra la "layer" de los puntos esta activa el ui
             {
                 if (hit.collider.name == "Mesh_HD_85512")
-                {
-                    reiniciarVentanas();
+                {          
                     Text_HD.SetActive(true);
                     Debug.Log("hd text");
                 }
                 if (hit.collider.name == "Mesh_Cancri_e")
                 {
-                    reiniciarVentanas();
                     Text_Cancri.SetActive(true);
                 }
                 if (hit.collider.name == "Mesh_Kepler_16b")
-                {
-                    reiniciarVentanas();
+                {                   
                     Text_Kepler16.SetActive(true);
                 }
                 if (hit.collider.name == "Mesh_Kepler_22b")
-                {
-                    reiniciarVentanas();
+                {                   
                     Text_Kepler22.SetActive(true);
                 }
                 if (hit.collider.name == "Mesh_OGLE_2005")
                 {
-                    reiniciarVentanas();
                     Text_Ogle.SetActive(true);
                 }
 
             }
+            else
+            {
+                reiniciarVentanas();
+            }
         }
     }
-
+    
     public void reiniciarVentanas()             // esta funcion hace que el ui de los puntos interactivos se cierre
     {
         Text_HD.SetActive(false);
@@ -100,6 +99,7 @@ public class Planet_selector : MonoBehaviour
         Text_Kepler22.SetActive(false);
         Text_Ogle.SetActive(false);
     }
+
 
     public IEnumerator SceneLoad(string nombreEscena)
     {
