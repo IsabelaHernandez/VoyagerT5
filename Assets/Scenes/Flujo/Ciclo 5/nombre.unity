@@ -960,7 +960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1470961120048604006, guid: 638a962fb9e2d234c8a094de4dc2dde8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 638a962fb9e2d234c8a094de4dc2dde8, type: 3}
@@ -1526,7 +1526,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 1
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
 --- !u!222 &1367141412
@@ -1549,7 +1549,7 @@ GameObject:
   - component: {fileID: 1406550808}
   - component: {fileID: 1406550809}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Textos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1658,7 +1658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1530680539}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: TextoUsuario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
