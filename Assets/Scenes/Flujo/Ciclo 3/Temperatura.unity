@@ -1482,7 +1482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1470961120048604006, guid: 638a962fb9e2d234c8a094de4dc2dde8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 638a962fb9e2d234c8a094de4dc2dde8, type: 3}
@@ -1716,7 +1716,7 @@ RectTransform:
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 292993762515010374}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -1737,7 +1737,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1786,7 +1786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507657204811892754, guid: ced6831c6d9b83148bd7fcf353487caa, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7507657204811892754, guid: ced6831c6d9b83148bd7fcf353487caa, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1992,8 +1992,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 292993762886970605}
-  - {fileID: 2061300132}
   - {fileID: 1933513676}
+  - {fileID: 2061300132}
   - {fileID: 1513432094}
   - {fileID: 1335884294}
   - {fileID: 54007499}
