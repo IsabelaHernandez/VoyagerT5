@@ -43,7 +43,8 @@ public class GameController : MonoBehaviour
     private float iceMaxDelay = 1;
 
     private int currentHits;
-
+    public GameObject boton;
+    public AudioSource hit;
     private void Start()
     {
         UpdateHits();
@@ -84,6 +85,7 @@ public class GameController : MonoBehaviour
     private void OnHit()
     {
             currentHits++;
+            hit.Play();
             UpdateHits();
         
 
@@ -94,6 +96,7 @@ public class GameController : MonoBehaviour
             print("Win");
             gameFeedbackImage.gameObject.SetActive(true);
             gameFeedbackImage.sprite = winSprite;
+            boton.SetActive(true);
             StartCoroutine(WinSlider());
         }
         else

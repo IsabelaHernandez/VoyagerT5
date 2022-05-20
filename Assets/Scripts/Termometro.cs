@@ -18,7 +18,7 @@ public class Termometro : MonoBehaviour
     {
         area.transform.localScale = new Vector3(area.transform.localScale.x, centerRange * height, area.transform.localScale.z);
 
-        bar.size = new Vector2(height, bar.size.y);
+        //bar.size = new Vector2(height, bar.size.y);
     }
 
     public void UpdateSlider(float position)
