@@ -801,6 +801,7 @@ MonoBehaviour:
   paneles: []
   botonLaunch: {fileID: 0}
   speed: 700
+  isActivated: 0
   boton: {fileID: 1392929280}
 --- !u!1 &532869797
 GameObject:
@@ -3673,6 +3674,30 @@ Transform:
   m_Father: {fileID: 1252262052}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2050682578 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109940953089821117, guid: 5ec0b4f0c0ec41b4db783b95d08a9054, type: 3}
+  m_PrefabInstance: {fileID: 8109940953265223425}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2050682583
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050682578}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 599baaea04f748a43944b774178917ee, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &8109940953265223425
 PrefabInstance:
   m_ObjectHideFlags: 0
