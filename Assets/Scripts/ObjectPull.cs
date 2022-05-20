@@ -15,7 +15,7 @@ public class ObjectPull : MonoBehaviour
     public GameObject botonLaunch;
 
     public float speed;
-    bool isActivated;
+    public  bool isActivated;
     public Button boton;
 
     private void Start()

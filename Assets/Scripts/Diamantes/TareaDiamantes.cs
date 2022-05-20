@@ -10,7 +10,7 @@ public class TareaDiamantes : MonoBehaviour
     [SerializeField] Sprite[] bagSprites; // Array de sprites (Ajustados desde el inspector (SerializeField) )
     public GameObject buttonSkip;
     public GameObject bolsa;
-
+    public AudioSource sonidoDiamanteEnBolsa;
     SpriteRenderer sp; // Referencia al Spriterenderer
 
     private void Start()
@@ -30,6 +30,7 @@ public class TareaDiamantes : MonoBehaviour
     void AddDiamond(GameObject diamond)
     {
         diamond.SetActive(false);
+        sonidoDiamanteEnBolsa.Play();
         placedDiamonds++;
 
         // Colocar un sprite distinto dependiendo de cuantos diamantes se han metido a la escena
@@ -58,7 +59,7 @@ public class TareaDiamantes : MonoBehaviour
         {
             // Cambio de escena ?
             buttonSkip.SetActive(true);
-            bolsa.SetActive(false);
+            //bolsa.SetActive(false);
             print("Cambio de escena");
             // !! Recuerden colocar el cambio de la escena por medio de SceneManager.LoadScene() !!
         }

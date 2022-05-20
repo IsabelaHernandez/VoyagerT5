@@ -11,7 +11,7 @@ public class DragDrop2D : MonoBehaviour
     Vector3 mousePos;
     Transform focus;
     bool isDrag;
-
+    public AudioSource sonidoPickUp;
     private void Start()
     {
         isDrag = false;
@@ -28,7 +28,13 @@ public class DragDrop2D : MonoBehaviour
             {
                 focus = hit.transform;
                 print("Clickeado =" + hit.collider.transform.name);
-                isDrag = true;
+                sonidoPickUp.Play();
+
+                if (hit.collider.transform.name == "Bolsa ")
+                {
+                    isDrag = false;
+                }
+                else{isDrag = true;}
             }
         }
         else if (Input.GetMouseButtonUp(0) && isDrag == true)
